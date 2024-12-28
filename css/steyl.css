@@ -26,6 +26,13 @@ a {
   color: inherit;
 }
 
+button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  cursor: pointer;
+}
+
 
 body {
   font-family: var(--font-family);
@@ -68,9 +75,61 @@ body {
 
 /*! Header End  */
 
+.about {
+  padding-bottom: 450px;
+  background-image: url(../img/aboutBG.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.about__suptitle {
+  padding-top: 230px;
+  font-size: 96px;
+  line-height: 1.145;
+  margin-bottom: 10px;
+}
+
+.about__title {
+  font-size: 36px;
+  line-height: 1.138;
+  margin-bottom: 5px;
+}
+
+.about__price {
+  font-size: 13px;
+  line-height: 1.153;
+  margin-bottom: 50px;
+}
+
+.about__text {
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.btn {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--white);
+  padding: 21px 111px;
+}
+
+.btn-blue {
+  background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
+}
+
+
+.btn-trans {
+  color: var(--grey);
+  border: 1px solid rgb(160, 75, 239);
+}
+
+/* Main End */
 /*! Footer Start */
 
-.footer{
+.footer {
   border: 1px solid var(--light-grey);
   margin-bottom: 44px;
 }
