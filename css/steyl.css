@@ -113,6 +113,55 @@ body {
 
 /*! Main Start  */
 
+.top {
+  min-height: calc(100vh - 81px);
+
+  background-image: url(../img/aboutBG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 96px;
+  margin-bottom: 10px;
+  padding-top: 16%;
+}
+
+.subtitle {
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+
+.top__text {
+  font-size: 13px;
+  margin-bottom: 50px;
+}
+
+.buy__text {
+  font-size: 13px;
+  padding-top: 6px;
+}
+
+.buy-btn {
+  background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+  display: flex;
+  text-transform: uppercase;
+  padding: 1px;
+}
+
+.buy-btn__text {
+  color: var(--white);
+  padding: 21px 110px;
+}
+
+.buy-btn__price{
+  background-color: var(--white);
+  padding: 21px 105px;
+}
+
+
 
 /*! Main End */
 /*! Footer Start */
