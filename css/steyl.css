@@ -43,6 +43,11 @@ button {
   font-family: inherit;
 }
 
+.section--title {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
 body {
   font-family: var(--font-family);
   font-weight: 400;
@@ -183,6 +188,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 20px;
+  max-width: 360px;
 }
 
 .tabs {
@@ -221,7 +227,7 @@ body {
   transition: opacitiy 0.3s ease;
 }
 
-.tabs__content-item--active{
+.tabs__content-item--active {
   opacity: 1;
 }
 
@@ -231,7 +237,7 @@ body {
   margin-bottom: 5px;
 }
 
-.tabs__content-img{
+.tabs__content-img {
   grid-row: 1/-1;
   align-self: stretch;
 }
@@ -260,6 +266,79 @@ body {
 .video span {
   font-size: 13px;
   color: var(--white);
+}
+
+.games {
+  margin-bottom: 100px;
+}
+
+.game__title {
+  margin-bottom: 50px;
+}
+
+.game__inner {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.game__descr {
+  padding-right: 10px;
+}
+
+.game__descr-title {
+  font-size: 36px;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 10px;
+}
+
+.game__descr-text {
+  margin-bottom: 30px;
+}
+
+.game__link {
+  font-weight: 700;
+  background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+
+  border: 1px solid #bc10d8;
+  padding: 16px 15px 12px;
+  width: 225px;
+  text-align: center;
+}
+
+.game__item {
+  border: 1px solid #bc10d8;
+  padding: 10px 20px 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+.game__item-img {
+  margin-bottom: 10px;
+}
+
+.game__item-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.game__item-text {
+  margin-bottom: 30px;
+}
+
+.game__item-link {
+  background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: auto;
 }
 
 /*! Main End */
