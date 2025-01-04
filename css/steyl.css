@@ -341,6 +341,53 @@ body {
   margin-top: auto;
 }
 
+.buy {
+  margin-bottom: 110px;
+  text-align: center;
+
+  position: relative;
+
+  overflow-x: hidden;
+}
+
+.buy__bg {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: clamp(100px, 20.83vw, 500px);
+  background: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0.1;
+  position: absolute;
+
+  z-index: -1;
+
+  animation: line-text 6s linear 1s infinite;
+}
+
+@keyframes line-text{
+  from{
+    transform: translateX(115%);
+    transform-origin:left center;
+  }
+
+  to {
+    transform: translateX(-115%);
+    transform-origin: right center;
+  }
+}
+
+.buy__img {
+  margin-bottom: 30px;
+}
+
+.buy .buy-btn {
+  margin: 0 auto;
+}
+
+
+
 /*! Main End */
 /*! Footer Start */
 
