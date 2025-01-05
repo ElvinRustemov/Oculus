@@ -521,15 +521,70 @@ body {
   border: 1px solid;
   border-image: linear-gradient(180deg, #bc10d8 0%, rgba(80, 0, 250, 0.93) 100%) 1;
 
-  padding: 6px ;
+  padding: 6px;
   text-align: center;
   width: 100%;
 
 }
 
+.contact {
+  margin-bottom: 100px;
+}
+
+.contact__inner {
+  display: flex;
+}
+
+.contact__box1-h2 {
+  font-size: 24px;
+  color: var(--black);
+  margin-bottom: 9px;
+}
+
+.contact__box2 {
+  margin-left: 411px;
+  align-self: flex-end;
+}
+
+.contact__box1-email {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid var(--black);
+  padding: 27px 0 20px;
+  margin-bottom: 10px;
+}
+
+.contact__box1-email::placeholder {
+  color: rgba(111, 111, 111, 0.5);
+}
+
+.contact__box-btn {
+  font-weight: 700;
+  color: #fff;
+  border-radius: 100%;
+  border-radius: 100%;
+  background: var(--light-grey);
+  padding: 16px 11px 16px 14px;
+
+  position: absolute;
+  left: 525px;
+  top: 10px
+}
+
+.contact__box2-email {
+  margin-right: 18px;
+}
+
+.contact__box-email {
+  position: relative;
+}
+
+
 /*! Main End */
 /*! Footer Start */
 
-
+/* .footer{
+  margin-bottom: 45px;
+} */
 
 /*! Footer End */
