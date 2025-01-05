@@ -583,8 +583,29 @@ body {
 /*! Main End */
 /*! Footer Start */
 
-/* .footer{
+.footer {
   margin-bottom: 45px;
-} */
+}
+
+.footer__inner {
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr); */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__menu {
+  display: flex;
+  gap: 20px;
+}
+
+.footer__social {
+  margin-left: 240px;
+}
+
+.footer__social-link {
+  margin-left: 20px;
+}
 
 /*! Footer End */
